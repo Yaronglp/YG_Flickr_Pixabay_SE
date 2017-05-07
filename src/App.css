@@ -1,0 +1,188 @@
+
+/**************** Form ****************/
+
+.form_section{
+  display:inline-block;
+  float:left;
+  margin-left:500px;
+  margin-top:23px;
+}
+
+.text_input{
+  height:15px;
+  width:141px; 
+  padding-bottom:1px;
+  padding-top:1px;
+}
+
+.select_box{
+  height:21px;
+  width:85px;
+  padding-bottom:2px !important;
+  padding-top:1px !important;
+}
+
+/* for IE 10+ */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+  .text_input{
+    padding-bottom:2px;
+    padding-top:2px;
+  }
+
+  .select_box{
+    height:21px;
+    width:85px;
+    padding-bottom:1px !important;
+    padding-top:1px !important;
+  }     
+}
+
+/* for FF */
+@-moz-document url-prefix() {
+
+  .text_input{
+    padding-bottom:0 !important;
+    padding-top:3px !important;
+  }  
+
+  .select_box{
+    padding-top:2px !important; 
+    height:20px;
+  }
+
+  .submit_input{
+    padding-bottom: 16px !important;
+  }   
+
+  .clear_history_btn{
+    padding-bottom: 16px !important; 
+  }
+}
+
+.submit_input{
+  height:21px;
+  width:100px;
+  padding: 0;
+}
+
+.submit_input:hover:enabled{
+  background:#4ca64c;
+  color:#fff;
+}
+
+/**************** Button ****************/
+
+.clear_history_btn{
+  float:left;
+  margin-top: 23px;
+  margin-left: 5px;
+  height:21px;
+  width:100px;
+}
+
+.clear_history_btn:hover:enabled{
+  background:#ff3232;
+  color:#fff;
+  height:21px;
+  width:100px;
+}
+
+/**************** Table ****************/
+
+table.table_history thead, 
+table.table_history tbody
+{ 
+  display: block; 
+}
+
+table.table_history tbody {
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.table_history thead td:not(:last-child) {
+    width: 150px;
+}
+
+.table_history tbody td {
+  width:145px;
+}
+
+.table_history {
+  display:inline-block;
+  max-width:620px;
+  float:left;
+  margin-left: 115px;
+  border:1px solid #222;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.table_history_header tr td{
+  background-color: antiquewhite;
+}
+
+.long_td{
+  max-width: 145px;
+}
+
+.dummy_td{
+  width:15px;
+  background-color: transparent !important;  
+}
+
+.hide_dummy_td{
+  display:none;
+}
+
+.clickable_row{
+  cursor:pointer;
+}
+
+.clickable_row:hover{
+  background: #CBC5C1;
+}
+
+/**************** Photos ****************/
+
+.photos_section{
+  float:left;
+  margin: 30px 0 50px 0;
+  padding:15px 25px;
+}
+
+.result_image_size{
+  height:300px;
+  width:300px;
+  padding-right:3px;
+  border:none;
+}
+
+/**************** General ****************/
+
+.app{
+  text-align: center;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.header_section {
+  background-color: #222;
+  height: 60px;
+  padding: 15px;
+  color: white;
+  width:100%;
+}
+
+.user_input_section{
+  position:fixed;
+  height:30px;
+  width:100%;
+  background:#fff;
+}
