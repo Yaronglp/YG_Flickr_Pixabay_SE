@@ -1,4 +1,4 @@
-# YG_Flickr_Pixabay_SE
+# flickr-pixabay-pictures-engine
 
 First impression with react js.
 
